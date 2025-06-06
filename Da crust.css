@@ -12,6 +12,8 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    position:sticky;
+    top: 0;
 
 }
 #logo img{
@@ -76,6 +78,30 @@ main .container h1{
     font-size: 50px;
     font-weight: 700;
 }
+main .container button{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: none;
+
+}
+main .container button:hover{
+    background-color: white;  
+    border: 1px solid red;
+
+}
+main .container button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+main .container button a:hover{
+    color:red;
+}
 .container2{
     display: flex;
     gap: 50px;
@@ -139,4 +165,223 @@ section{
     margin-top: 50px;
     width: 100%;
     height: 100vh;
+}
+.base .info h3{
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}
+.base .info image-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 00px;
+    margin-left: 0px;
+}
+.base2 .gate{
+    display: flex;
+    gap:100px;
+    background-color: white;
+    padding: 30px;
+    width: 50%;
+   
+}
+.base2 .gate .contract-right form #gain{
+    display: flex;
+    gap: 20px;
+
+}
+.base2 .gate .contact-right form  #gain .name{
+    border: 0px;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-inline-end: 10px;
+    
+}
+.base2 .gate .contact-right form  #gain1 .mail{
+    border: 0px;
+    border-bottom: 2px solid;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-inline-end: 10px;
+}
+.base2 .gate .contact-right form #message{
+    border: 0px;
+    border-bottom: 2px solid;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    width: 350px
+    
+}
+.base2 .gate .contact-right form button{
+    background-color: white;
+    padding: 10px 20px;
+    width: 120px;
+    margin-top: 30px;
+    border: 2px solid;
+    margin-left: 250px;
+}
+.base2 .gate .contact-right form button:hover{
+    background-color: red;  
+    color: white;
+    border: none;
+}
+
+    
+    
+.base2 .contact-right{
+    font-family: sans-serif;
+    
+    
+}
+.base2 .contact-right h3{
+    text-align: center;
+    font-size:40px;
+    font-weight: 700;
+}
+.base2 .contact-right p{
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+.base2 .gate .roaster h1{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.base2 .gate .roaster p{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
+.favorite .love h4{
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.favorite .love{
+    background-color: white;
+    padding: 20px;
+}
+.favorite .love button{
+    background-color: red;
+    padding: 10px 20px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 450px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.favorite .love button:hover{
+    background-color: white;  
+    border: 1px solid red;
+    color: red;
+    
+
+}
+.favorite .love button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.favorite .love button a:hover{
+    color:red;
+}
+.base3{
+    margin-top: 0px;
+}
+.base3 .love1{
+    display: flex;;
+    gap: 30px;
+
+}
+.base3 .love2{
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.base3 .love2 h4{
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.base3 .love2 h5{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.base1 .love3{
+    background-image: url(./bagage-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+    width: 70%;
+    padding: 20px;
+}
+.base1 .love4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 20px;
+   
+}   
+.base1 .love4 h4{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-left: 400px;
+}
+.base1 .love4 h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-left: 400px;
+}
+.base1 .love4 p{
+    font-size: 11px;
+    margin-left: 400px; 
+}
+.base1 .love4 button{
+    background-color: red;
+    padding: 10px 20px;
+    width: 120px;
+    margin-top: 30px;
+    margin-left: 400px;
+    border: none;
+}
+.base1 .love4 button:hover{
+    background-color: white;  
+    border: 1px solid red;
+    color: red;
+}
+.base1 .love4 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+.base1 .love4 button a:hover{
+    color:red;
+}
+footer{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
